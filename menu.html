@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-----------META----------->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-----------PAGE SETTINGS----------->
+  <title>Menu</title>
+  <link rel="icon" href="Logo2 BIG.png">
+  <!-----------BOOTSTRAP----------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-----------CSS----------->
+  <link href="style.css" rel="stylesheet">
+  <!-----------FONTS----------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+  
+<body>
+
+  <!-----------NAV BAR----------->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-link" href="index.html">Caffeine Oasis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-----------END OF NAV BAR----------->
+
+
+  <!-----------CONTENT----------->
+
+
+
+  <!-- MAIN (Center website) -->
+  <div class="main">
+
+    <h1 class="menuwords header1">Menu</h1>
+    <hr>
+
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')">Show all</button>
+      <button class="btn" onclick="filterSelection('Food')">Food</button>
+      <button class="btn" onclick="filterSelection('drinks')">Drinks</button>
+      <button class="btn" onclick="filterSelection('desserts')">Snacks and Sweets</button>
+    </div>
+
+    <div class="row menuwords">
+      <div class=" column Food">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column Food">
+        <div class="">
+          <h2>Sandwiches / Wraps</h2>
+        </div>
+      </div>
+
+       <div class=" column Food">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Bagel.jpg" alt="#" style="width:100%">
+          <h4>Bagels</h4>
+          <p>Everything and Plain w/ Cream Cheese or Butter</p>
+          <h3>$2.50</h3>
+          
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Breakfast.jpg" alt="#" style="width:100%">
+          <h4>The Breakfast</h4>
+          <p>Choice of Wrap, Bagel, or English Muffin. Egg & Cheese w/ Ham, Sausage or Bacon</p>
+          <h3>$4.95</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Wraps.jpg" alt="#" style="width:100%">
+          <h4>The Chicken Bacon Ranch</h4>
+          <p>Choice of Wrap, or Ciabatta bread <br> Includes: Grilled or Crispy Chicken w Bacon, Ranch, Choice of toppings</p>
+          <h3>$9.50</h3>
+        </div>
+      </div>
+
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Wraps.jpg" alt="#" style="width:100%">
+          <h4>The Turkey Avacado</h4>
+          <p>Choice of Wrap, or Ciabatta bread <br> Includes: Turkey, Avacado, Choice of toppings</p>
+          <h3>$9.30</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Wraps.jpg" alt="#" style="width:100%">
+          <h4>The Buffalo Chicken</h4>
+          <p>Choice of Wrap, or Ciabatta bread <br> Includes: Grilled or Crispy Chicken w Hot Sauce, Choice of toppings</p>
+          <h3>$8.99</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Wraps.jpg" alt="#" style="width:100%">
+          <h4>The California </h4>
+          <p>Choice of Wrap, or Ciabatta bread <br> Includes: Turkey, Avacado, Bacon, Provolone, Choice of Toppings</p>
+          <h3>$10.25</h3>
+        </div>
+      </div>
+
+      <div class=" column Food">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column Food">
+        <div class="">
+          <h2>Açaí Bowls</h2>
+        </div>
+      </div>
+
+       <div class=" column Food">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Acai.jpg" alt="#" style="width:100%">
+          <h4>Tropical Bowl</h4>
+          <p>Organic Açaí blended w/choice of milk, Mangos (topped w/ kiwi, blackberries, bananas, coconut flakes, homemade granola) <br> Choice of either Chocolate Caramel, or Peanut Butter Drizzle</p>
+          <h3>$10.99</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Acai.jpg" alt="#" style="width:100%">
+          <h4>Powerfit Bowl</h4>
+          <p>Organic Açaí blended w/choice of milk, Peanut Butter Protein power (topped w/ bananas, strawberries, homemade granola) <br> Choice of either Chocolate Caramel, or Peanut Butter Drizzle</p>
+          <h3>$10.99</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Acai.jpg" alt="#" style="width:100%">
+          <h4>Classic Bowl</h4>
+          <p>Organic Açaí blended w/choice of milk, Blueberries, Strawberries (topped w/ bananas, strawberries, homemade granola) <br> Choice of either Chocolate Caramel, or Peanut Butter Drizzle</p>
+          <h3>$10.99</h3>
+        </div>
+      </div>
+
+      <div class=" column Food">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column Food">
+        <div class="">
+          <h2>Salads</h2>
+        </div>
+      </div>
+
+       <div class=" column Food">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Salad.jpg" alt="#" style="width:100%">
+          <h4>Greek Chicken</h4>
+          <p>Chicken, Cucumber, Feta, Black Olives, Tzatziki Sauce, on Spinach</p>
+          <h3>$9.99</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Salad.jpg" alt="#" style="width:100%">
+          <h4>Classic</h4>
+          <p>Lettuce, Spinach, Cucumber, Tomato, Craisins, Almonds, Clumbled Blue Cheese, Chicken, Balsamic Vinaigrette</p>
+          <h3>$10.99</h3>
+        </div>
+      </div>
+      <div class="column Food">
+        <div class="card">
+          <img src="menupictures/Salad.jpg" alt="#" style="width:100%">
+          <h4>Chickpeas Green Goddess</h4>
+          <p>Cucumber, Tomato, Swiss Cheese, chickpea salad, Grilled Chicken, green goddess dressing</p>
+          <h3>$11.99</h3>
+        </div>
+      </div>
+      <!--Hot Drinks-->
+      <div class=" column drinks">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column drinks">
+        <div class="">
+          <h2>Hot Drinks</h2>
+        </div>
+      </div>
+
+       <div class=" column drinks">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Cappuccino1.jpg" alt="#" style="width:100%">
+          <h4>Cappuccino</h4>
+          <p>Espresso w/ Smoothed Layer of Froth - 12oz & 20oz</p>
+          <h3>$3.60 / $4.35</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Americano1.jpg" alt="#" style="width:100%">
+          <h4>Americano</h4>
+          <p>Espresso Shot, Hot Water - 12oz & 20oz</p>
+          <h3>$2.25 / $3.00</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Espresso1.jpg" alt="#" style="width:100%">
+          <h4>Espresso</h4>
+          <p>Short & Long Shot Espressos made with roast straight from Italy</p>
+          <h3>$1.00</h3>
+        </div>
+      </div>
+
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Latte1.jpeg" alt="#" style="width:100%">
+          <h4>Latte</h4>
+          <p>Espresso w/ Steamed Milk, Whip Drizzle & Choice of Flavoring (Plain Option Available) - 12oz & 20oz</p>
+          <h3>$3.60 / $4.35</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Hot Cho 1.jpg" alt="#" style="width:100%">
+          <h4>Hot Chocolate </h4>
+          <h3>$3.10</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Tea1.jpg" alt="#" style="width:100%">
+          <h4>Hot Tea</h4>
+          <h3>$2.00</h3>
+        </div>
+      </div>
+      <!------------------>
+      
+      <!--Cold Drinks-->
+       <div class=" column drinks">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column drinks">
+        <div class="">
+          <h2>Cold Drinks</h2>
+  
+        </div>
+      </div>
+
+       <div class=" column drinks">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Smoothie.png" alt="#" style="width:100%">
+          <h4>Fruit Smoothies</h4>
+          <p>Made with REAL FRUIT. Available in several flavors; Strawberry, Blueberry, Mixed Berry, Mango, Banana, or
+            Peanut Butter</p>
+          <h3>$4.99</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Lemonade.jpg" alt="#" style="width:100%">
+          <h4>Frozen Lemonade</h4>
+          <p>Choice of Flavors; Strawberry, Blueberry, Raspberry, & Blue Raspberry</p>
+          <h3>$2.99</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Coffeee.jpg" alt="#" style="width:100%">
+          <h4>Iced Coffee</h4>
+          <p>Fresh Brewed Coffee, Ice</p>
+          <h3>$3.00</h3>
+        </div>
+      </div>
+
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Frappe.jpg" alt="#" style="width:100%">
+          <h4>Frappe</h4>
+          <p>Frappe Mix, Whole Milk, Ice, and Choice of Flavor(s)</p>
+          <h3>$5.50</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Latte.jpg" alt="#" style="width:100%">
+          <h4>Iced Latte</h4>
+          <p>Espresso, Milk, Ice and Choice of Flavor(s)</p>
+          <h3>$4.15</h3>
+        </div>
+      </div>
+      <div class="column drinks">
+        <div class="card">
+          <img src="menupictures/Tea.jpg" alt="#" style="width:100%">
+          <h4>Iced Tea</h4>
+          <p>Fresh Brewed Tea, Ice (Green or Black) </p>
+          <h3>$2.15</h3>
+        </div>
+      </div>
+      
+  
+    <!------------------>
+
+
+<div class=" column desserts">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      
+      <div class="column desserts">
+        <div class="">
+          <h2>Homemade Pastries</h2>
+        </div>
+      </div>
+
+       <div class=" column desserts">
+        <div class="">
+          <h2><!--FILLER--></h2>
+        </div>
+      </div>
+      <div class="column desserts">
+        <div class="card">
+          <img src="menupictures/cookie.jpg" alt="#" style="width:100%">
+          <h4>Cookies</h4>
+          <p>Chocolate chip, Snickerdoodle, Oatmeal Raisin, Peanut Butter, Sugar Frosted</p>
+          <h3>$1.25 (Each)</h3>
+        </div>
+      </div>
+      <div class="column desserts">
+        <div class="card">
+          <img src="menupictures/muffin.jpg" alt="#" style="width:100%">
+          <h4>Muffins</h4>
+          <p>Chocolate Chip, Blueberry, Cinnamon Crumble, Banana Nut, </p>
+          <h3>$3.25 (Each)</h3>
+        </div>
+      </div>
+      <div class="column desserts">
+        <div class="card">
+          <img src="menupictures/brownie.jpeg" alt="#" style="width:100%">
+          <h4>Brownies</h4>
+          <h3>$2.55 (Each Square)</h3>
+        </div>
+      </div>
+      <div class="column desserts">
+        <div class="card">
+          <img src="menupictures/Pretzel.jpg" alt="#" style="width:100%">
+          <h4>Pretzels</h4>
+          <h3>$4.99</h3>
+        </div>
+      </div>
+      <div class="column desserts">
+        <div class="card">
+          <img src="menupictures/Crosant.jpg" alt="#" style="width:100%">
+          <h4>Croissant</h4>
+          <h3>$4.99</h3>
+        </div>
+      </div>
+      <div class="column desserts">
+        <div class="card">
+          <img src="menupictures/Macaroon.jpg" alt="#" style="width:100%">
+          <h4>Macaroons</h4>
+            <p>Chocolate, Vanilla, Raspberry, Lemon, Pisachio</p>
+          <h3>$2.25 (Each)</h3>
+        </div>
+      </div>
+      <!-- END GRID -->
+    </div>
+     <h4 class="menuwords">Please note: prices are subject to change.</h4>
+      <h3 class="menuwords"><b>Gluten Free / Vegan Options available</b></h3>
+    <h3 class="menuwords">Any Questions? <a href="contact.html">Please contact us</a></h3>
+    <!-- END MAIN -->
+    <br>  
+  </div>
+
+  <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+
+
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
